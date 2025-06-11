@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+   font-family: Arial, Helvetica, sans-serif; 
+   margin: 0;
+   padding: 0; 
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: rgb(5, 18, 77);
+}
+
+h3 {
+    border: 2px dotted blue;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+h1 {
+   background-color: rgb(144, 238, 144);
+   padding: 15px;
+   margin-bottom: 5px;
+   text-align: center;
+}
+
+ul, ol {
+    border: 2px solid rgb(144, 238, 144);
+    padding: 20px;
+    background-color: rgb(212, 228, 122);
+}
+
+.description {
+    background-color: #e9585c;
+    padding: 10px;
+}
